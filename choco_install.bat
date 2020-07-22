@@ -64,14 +64,14 @@ choco upgrade all -y
 
 :: 사용할 어플리케이션 설치
 set choco_install=choco install -fy
-%choco_install% bandizip
 %choco_install% googlechrome
-%choco_install% javaruntime
+%choco_install% jdk8
 %choco_install% python
 %choco_install% nodejs
 %choco_install% microsoft-windows-terminal
 %choco_install% vscode
 %choco_install% mysql
+%choco_install% mysql.workbench
 %choco_install% sublimetext2
 %choco_install% dbeaver
 %choco_install% choco install github-desktop
